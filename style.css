@@ -1,0 +1,253 @@
+/* Font */
+
+.font-secundary{
+    font-family: "Dancing Script", serif !important;
+}
+
+body{
+    font-family: "Playfair Display", serif !important;
+    background-color: #FFF5E3 !important;
+    color: #332710 !important;
+}
+
+.ir-arriba{
+  display:none;
+  background-repeat:no-repeat;
+  font-size:20px;
+  color: #332710;
+  cursor:pointer;
+  position:fixed;
+  bottom:10px;
+  right:10px;
+  z-index:2;
+}
+
+.navbar{
+    background-color: #FFF5E3 !important;
+}
+
+.Page{
+  margin-top: 100px;
+}
+
+.Maps{
+  width: 100%;
+}
+
+
+
+.Form_Contact {
+  background-color: #332710;
+  color: #FFF5E3;
+  
+}
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+    
+    
+  }
+
+  
+  .carousel img {
+    position: absolute;
+    filter: brightness(65%);
+    background-position: bottom;
+    background-size: cover;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 2rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 45rem;
+    
+  }
+
+  .container-info{
+    padding: 1rem;
+  }
+
+  .row-info{
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .index_card{
+    background-color: #CCA968;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: center;
+    padding: 2rem;
+    transition: box-shadow 0.3s ease;
+  }
+
+  .index_card:hover{
+    box-shadow: 0px 10px 20px 0 rgba(20, 20, 20, 0.5);
+    
+  }
+
+  footer{
+    background-color: #332710;
+    height: 20%;
+    text-align: center;
+    padding: 1rem;
+    color: #FFF5E3;
+    margin-top: 2rem;
+  }
+
+  @import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase
+}
+
+.navbar .nav {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1.2rem
+}
+
+.navbar-inverse {
+  background-color: #003300
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+  background-color: #002200
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+  background-color: #003300
+}
+
+.dropdown-menu {
+  background-color: #006B00
+}
+
+/* 
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  
+  background-color: #002200
+  
+}
+*/
+.navbar-inverse {
+  background-image: none;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  background-image: none;
+}
+
+.navbar-inverse {
+  border-color: #003300
+}
+
+.navbar-inverse .navbar-brand {
+  color: #FFFFFF
+}
+
+.navbar-inverse .navbar-brand:hover {
+  color: #FFCC00
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+  color: #FFCC00
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+  color: #FFCC00
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+  color: #FFCC00
+}
+
+.dropdown-menu>li>a {
+  color: black;
+}
+
+/*
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  color: #FFCC00
+}
+*/
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+  border-top-color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+  border-top-color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+  border-bottom-color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+  border-bottom-color: #FFFFFF
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+@media only screen and (max-width: 992px) {
+  .Contact {
+    flex-direction: column;
+  }
+
+  .dona-historia-end{
+    flex-direction: column;
+  }
+  .dona-historia-end img{
+    width: 50% !important;
+    margin-bottom: 2rem;
+  }
+}
